@@ -1,0 +1,22 @@
+[package]
+name = "notary_tools_rust"
+version = "0.1.0"
+authors = ["Artem Pikulin <ortgma@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "utxo_merger"
+path = "src/utxo_merger.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chain = { git = "https://github.com/KomodoPlatform/atomicDEX-API.git", branch = "for-notary" }
+coins = { git = "https://github.com/KomodoPlatform/atomicDEX-API.git", branch = "for-notary" }
+common = { git = "https://github.com/KomodoPlatform/atomicDEX-API.git", branch = "for-notary" }
+futures01 = { version = "0.1", package = "futures" }
+hex = "0.3.2"
+keys = { git = "https://github.com/KomodoPlatform/atomicDEX-API.git", branch = "for-notary" }
+script = { git = "https://github.com/KomodoPlatform/atomicDEX-API.git", branch = "for-notary" }
+serialization = { git = "https://github.com/KomodoPlatform/atomicDEX-API.git", branch = "for-notary" }
+serde = "1"

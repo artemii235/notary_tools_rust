@@ -1,0 +1,33 @@
+{
+  "seeds": ["test"],
+  "send_to_address": "RGa7Uc71ep9vL8A9caVv2Fcv5ywJ8jRMeS",
+  "coins": [
+    {
+      "ticker": "KMD",
+      "activation_command": {
+        "method": "electrum",
+        "servers": [{"url": "electrum1.cipig.net:10001"}, {"url": "electrum2.cipig.net:10001"}, {"url": "electrum3.cipig.net:10001"}]
+      },
+      "output_threshold": 300000000,
+      "mm_conf": {
+        "coin": "KMD",
+        "name": "komodo",
+        "fname": "Komodo",
+        "rpcport": 7771,
+        "pubtype": 60,
+        "p2shtype": 85,
+        "wiftype": 188,
+        "txversion": 4,
+        "overwintered": 1,
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "requires_notarization": true,
+        "avg_blocktime": 1,
+        "protocol": {
+          "type": "UTXO"
+        }
+      }
+    }
+  ]
+}
