@@ -1,5 +1,8 @@
 {
-  "seeds": ["test"],
+  "seeds": [
+    "test1 komodo dpow notary nodes",
+    "test2 komodo dpow notary nodes"
+  ],
   "send_to_address": "RGa7Uc71ep9vL8A9caVv2Fcv5ywJ8jRMeS",
   "coins": [
     {
